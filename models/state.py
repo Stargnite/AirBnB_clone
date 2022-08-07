@@ -4,10 +4,10 @@ from modeles.base_models import BaseModel
 
 
     class State(BaseModes):
-       """Represent a state.
-         
-         Attributes:
-         state(str): name of the state.
-         """
+       """Represent a state inherit from BaseModes"""
          
     name = ""
+    
+    def __init__(self, *args, **kwargs):
+        """class constructor"""
+        super().__init__(*args, **kwargs)
