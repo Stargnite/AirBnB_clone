@@ -7,7 +7,3 @@ from modeles.base_models import BaseModel
        """Represent a state inherit from BaseModes"""
          
     name = ""
-    
-    def __init__(self, *args, **kwargs):
-        """class constructor"""
-        super().__init__(*args, **kwargs)
