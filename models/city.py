@@ -4,12 +4,12 @@ from models.base_model import BaseModel
 
 
   class City(BaseModel)
-  
-     """Represente City.
-     
-       city_id(str) The state id.
-       text(str) the name of the city.
-     """
+     """city_id(str) The state id.
+       text(str) the name of the city."""
      
   state_id = ""
   text = ""
+  
+  def __init__(self, *args, **kwargs):
+        """class constructor"""
+        super().__init__(*args, **kwargs)
