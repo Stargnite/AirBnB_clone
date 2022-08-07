@@ -7,7 +7,3 @@ from model.base_models import BaseModel
        """Represente an emenity in BaseModel """
     
     name = ""
-    
-def __init__(self, *args, **kwargs):
-        """class constructor"""
-        super().__init__(*args, **kwargs)
