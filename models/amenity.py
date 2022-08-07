@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """Difining amenity in BaseModel"""
-from models.basemodel import basemodel
 
+from model.base_models import BaseModel
 
    class Amenity(BaseModel)
-       """Represente an emenity.
-       
-       Attrivutes:
-       Amenity(str): the name of the Amenity.
-      """
+       """Represente an emenity in BaseModel """
     
     name = ""
+    
+def __init__(self, *args, **kwargs):
+        """class constructor"""
+        super().__init__(*args, **kwargs)
