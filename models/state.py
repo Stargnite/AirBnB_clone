@@ -1,6 +1,6 @@
 #!/user/bin/python3
 """Define a state from BaseModel."""
-from modeles.base_models import BaseModel
+from modeles.base_model import BaseModel
 
 
     class State(BaseModes):
