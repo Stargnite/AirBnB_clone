@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+hi#!/usr/bin/python3
 """Define the city class in BaseModel"""
 from models.base_model import BaseModel
 
@@ -9,7 +9,3 @@ from models.base_model import BaseModel
      
   state_id = ""
   text = ""
-  
-  def __init__(self, *args, **kwargs):
-        """class constructor"""
-        super().__init__(*args, **kwargs)
