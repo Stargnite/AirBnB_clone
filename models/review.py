@@ -1,6 +1,6 @@
  #!/usr/bin/python3
 """Define reveiw class from BaseModel"""
-from model.base_models import BaseModel
+from models.base_model import BaseModel
 
     
     class Review(BaseModel):
@@ -8,8 +8,4 @@ from model.base_models import BaseModel
        
     place_id = ""
     user_id = ""
-    text = ""
-    
-    def __init__(self, *args, **kwargs):
-        """class constructor"""
-        super().__init__(*args, **kwargs)
+    text = ""  
