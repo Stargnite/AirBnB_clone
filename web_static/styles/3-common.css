@@ -6,7 +6,7 @@ body {
 	font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-div {
+.centered_footer {
 	position: absolute;
 	top: 50%;
 	left: 50%;
